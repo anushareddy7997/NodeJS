@@ -13,7 +13,7 @@ app.use("/", userRoutes)
 
 
 app.get("/", (req, res) => {
-    res.send("Hello from express")
+    res.send("Hello from express!!!!!")
 })
 app.all("*", (req, res) => res.send("That route doesnot exists"))
 
